@@ -111,8 +111,8 @@ public class quizzer
 						
 						System.out.println("If you multiply a number by zero what is the outcome?");
 						int answer6 = ans6.nextInt();
-						
-						if (answer6 == 0 )
+						int c = 5%5;
+						if (answer6 == c )
 						{
 							correct++;
 						}
@@ -179,8 +179,8 @@ public class quizzer
 						
 						System.out.println("What is 60 percent of 10?");
 						int answer10 = ans10.nextInt();
-						
-						if (answer10 == 6 )
+						int remainder6 = 26%10;
+						if (answer10 == remainder6 )
 						{
 							correct++;
 						}
